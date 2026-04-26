@@ -1,0 +1,55 @@
+<!ELEMENT adopciones (mascotas, refugios, adoptantes, solicitudes)>
+
+<!ELEMENT mascotas (mascota+)>
+<!ELEMENT mascota (nombre, edad, salud, descripcion, refugio)>
+<!ATTLIST mascota 
+    idMascota ID #REQUIRED
+    especie CDATA #REQUIRED
+>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT edad (#PCDATA)>
+<!ELEMENT salud (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+
+<!ELEMENT refugio EMPTY>
+<!ATTLIST refugio 
+    idRefugio IDREF #REQUIRED
+>
+
+<!ELEMENT refugios (refugio+)>
+<!ELEMENT refugio (nombre, ubicacion, contacto)>
+<!ATTLIST refugio 
+    idRefugio ID #REQUIRED
+>
+
+<!ELEMENT ubicacion (#PCDATA)>
+<!ELEMENT contacto (#PCDATA)>
+
+<!ELEMENT adoptantes (adoptante+)>
+<!ELEMENT adoptante (nombre, email, telefono)>
+<!ATTLIST adoptante 
+    idAdoptante ID #REQUIRED
+>
+
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+
+<!ELEMENT solicitudes (solicitud+)>
+<!ELEMENT solicitud (fecha, mascota, adoptante)>
+<!ATTLIST solicitud 
+    idSolicitud ID #REQUIRED
+    estado (pendiente | aprobada | rechazada) "pendiente"
+>
+
+<!ELEMENT fecha (#PCDATA)>
+
+<!ELEMENT mascota EMPTY>
+<!ATTLIST mascota 
+    idMascota IDREF #REQUIRED
+>
+
+<!ELEMENT adoptante EMPTY>
+<!ATTLIST adoptante 
+    idAdoptante IDREF #REQUIRED
+>
