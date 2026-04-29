@@ -1,0 +1,5 @@
+MVC: https://docs.microsoft.com/es-es/aspnet/mvc/overview/getting-started/
+Razor: https://docs.microsoft.com/en-us/aspnet/web-pages/overview/getting-started/introducing-razor-syntax-c
+Introducción ASP.NET MVC 5:  https://www.youtube.com/playlist?list=PL9prAn3zOWZ500UXRn8yRBGqpfCn5_xyA
+Introducción Identity: https://www.youtube.com/playlist?list=PL9prAn3zOWZ5i9hOTbWMGXIWFbXfq3Sf4
+Proyecto ASp.NET MVC 5: https://www.youtube.com/playlist?list=PL9prAn3zOWZ6C15MK4Fe3a5cTOG2VycUb

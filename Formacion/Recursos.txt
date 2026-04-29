@@ -1,0 +1,10 @@
+* Microsoft Visual Studio
+
+	https://visualstudio.microsoft.com/es/  Descargar Visual Studio Community
+
+* Sql Server
+
+	https://www.microsoft.com/es-es/sql-server/sql-server-downloads   Descargar la edición Developer
+	
+	Despues, bajar a Herramientas y descargar SQL Server Management Studio. Ojo, no descargar el primer link, bajar mas abajo y 
+	en idiomas disponibles, bajar español.
